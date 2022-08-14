@@ -7,9 +7,9 @@ function factorialIterative(num){
 }
 
 function factorialRecursive(num){
-    if(num === 2) return 2;
+    if(num < 2) return 1;
     return factorialRecursive(num-1)*num
 }
 
-console.log(factorialIterative(3));
-console.log(factorialRecursive(3));
+console.log(factorialIterative(0));
+console.log(factorialRecursive(5));
